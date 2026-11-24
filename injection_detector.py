@@ -6,7 +6,7 @@ class InjectionDetector:
 
         # suspicious phrases with scores
         self.rules = {
-            "ignore previous instructions": 0.6,
+            "ignore previous instructions": 0.7,
             "reveal system prompt": 0.7,
             "jailbreak": 0.8,
             "bypass security": 0.7,
